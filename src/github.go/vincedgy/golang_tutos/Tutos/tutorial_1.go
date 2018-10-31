@@ -1,4 +1,4 @@
-package Tutos
+package main
 
 import "fmt"
 
@@ -7,18 +7,17 @@ import "fmt"
  */
 func TestAddThemUp() {
 
-	listNums := []float64{1,2,3,4.5}
+	listNums := []float64{1, 2, 3, 4.5}
 
 	fmt.Println(AddThemUp(listNums))
 
 }
 
-
-func AddThemUp(numbers []float64) float64{
+func AddThemUp(numbers []float64) float64 {
 
 	sum := 0.0
 
-	for  _, val := range numbers  {
+	for _, val := range numbers {
 		sum += val
 	}
 
@@ -30,8 +29,8 @@ func main() {
 	var Message string = "Hello"
 
 	var (
-		var1 = 2
-		var2 = 3
+		var1      = 2
+		var2      = 3
 		var3 bool = true
 	)
 
@@ -39,14 +38,13 @@ func main() {
 
 	randnum := 1
 
-	randnum ++
+	randnum++
 
-	fmt.Println("Number is ", (randnum * var1 + var2) % 2 )
+	fmt.Println("Number is ", (randnum*var1+var2)%2)
 
-	fmt.Println("Lenght is ", len(Message), " super " + " \ncool", var3)
+	fmt.Println("Lenght is ", len(Message), " super "+" \ncool", var3)
 
 	fmt.Printf("Super number here %d yeah ?\n	", 100)
-
 
 	fmt.Println("true && false = ", true && !false)
 
@@ -65,17 +63,19 @@ func main() {
 
 	// Switch
 	switch yourAge {
-	case 16 : fmt.Print("Cool")
-	default : fmt.Println("Too bad")
+	case 16:
+		fmt.Print("Cool")
+	default:
+		fmt.Println("Too bad")
 	}
 
 	// Tab
-	tab := [5]int { 1, 2, 4}
-	tab[0] ++
+	tab := [5]int{1, 2, 4}
+	tab[0]++
 	fmt.Println(tab)
 
 	// Slices
-	slice := []int { 1, 2, 4, 5, 6, 7, 8}
+	slice := []int{1, 2, 4, 5, 6, 7, 8}
 	numSlice := slice[0:]
 	fmt.Println(numSlice)
 	fmt.Println(numSlice[:4])
@@ -85,17 +85,14 @@ func main() {
 	fmt.Println(numSlice3)
 
 	// Maps
-	presAge := make(map[string] int)
-	presAge["Paul"]= 2
-	presAge["Nicole"]= 20
-	presAge["Bertrand"]= 12
+	presAge := make(map[string]int)
+	presAge["Paul"] = 2
+	presAge["Nicole"] = 20
+	presAge["Bertrand"] = 12
 
 	fmt.Println(presAge)
 
 	delete(presAge, "Paul")
 	fmt.Println(presAge)
 
-
 }
-
-

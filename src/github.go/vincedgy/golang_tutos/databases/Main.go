@@ -2,6 +2,7 @@ package main
 
 import (
 	"database/sql"
+	"github.com/juju/loggo"
 	_ "github.com/lib/pq"
 	s "github.go/vincedgy/golang_tutos/databases/services"
 	"log"
@@ -9,19 +10,20 @@ import (
 
 func main() {
 	/*
-	The main function of our local module
-	 */
+		The main function of our local module
+	*/
+
+	loggo.ConfigureLoggers("<root>=DEBUG")
 
 	log.Println("Starting...")
 
 	var conn *sql.DB = s.GetConnection("/Users/vdagoury/Projects/golang/workspace/src/github.go/vincedgy/golang_tutos/databases/application.yaml")
-	var user = s.GetUserById(conn,1)
+	var user = s.GetUserById(conn, 1)
 
 	log.Printf("The user's with id %d has email : %s", user.Id, user.Email)
 
-	user = s.GetUserById(conn,100)
+	user = s.GetUserById(conn, 100)
 	log.Printf("The user's with id %d has email : %s", user.Id, user.Email)
-
 
 	s.CloseConnection()
 	log.Println("Done")

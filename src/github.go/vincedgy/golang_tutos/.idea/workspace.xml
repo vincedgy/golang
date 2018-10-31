@@ -2,153 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="efb1c198-dbc2-4fef-ab96-a92da9eb69fd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/GOLang_Resources_and_tools.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/README.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/doctrees/GOLang_Resources_and_tools.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/doctrees/environment.pickle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/doctrees/index.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/doctrees/modules.doctree" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/.buildinfo" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/.nojekyll" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/GOLang_Resources_and_tools.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_sources/GOLang_Resources_and_tools.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_sources/index.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_sources/modules.rst.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/alabaster.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/basic.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/comment-bright.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/comment-close.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/comment.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/custom.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/doctools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/documentation_options.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/down-pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/down.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/jquery-3.2.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/minus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/pygments.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/searchtools.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/underscore-1.3.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/underscore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/up-pressed.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/up.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/_static/websupport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/genindex.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/modules.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/objects.inv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/html/searchindex.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/GOLangresources.tex" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/LICRcyr2utf8.xdy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/LICRlatin2utf8.xdy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/LatinRules.xdy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/footnotehyper-sphinx.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/latexmkjarc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/latexmkrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/make.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/python.ist" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinx.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinx.xdy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinxhighlight.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinxhowto.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinxmanual.cls" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/_build/latex/sphinxmulticell.sty" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/conf.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/index.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../../docs/modules.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/golang_tutos.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gopkg.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tutos/tutorial_1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/Main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/application.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/models/models.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/services/DBConnection.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/services/DbConfig.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/services/UserServices.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/databases/services/services.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/Makefile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/context.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/dependencies.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/entry.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/formatter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/global.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/level.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/logger.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/module.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/testwriter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/juju/loggo/writer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/.travis.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/LICENSE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/TESTS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/array.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/buf.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/conn.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/conn_go18.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/connector.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/copy.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/encode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/error.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/notify.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/oid/doc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/oid/gen.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/oid/types.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/rows.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/ssl.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/ssl_go1.7.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/ssl_permissions.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/ssl_renegotiation.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/ssl_windows.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/url.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/user_posix.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/user_windows.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/github.com/lib/pq/uuid.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/LICENSE.libyaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/NOTICE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/apic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/decode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/emitterc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/encode.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/parserc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/readerc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/resolve.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/scannerc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/sorter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/writerc.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yaml.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlh.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/gopkg.in/yaml.v2/yamlprivateh.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project1/Gopkg.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../project1/Gopkg.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tutos/test_loggo.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tutos/tutorial_1.go" beforeDir="false" afterPath="$PROJECT_DIR$/Tutos/tutorial_1.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/Main.go" beforeDir="false" afterPath="$PROJECT_DIR$/databases/Main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/models/models.go" beforeDir="false" afterPath="$PROJECT_DIR$/databases/models/models.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/services/DBConnection.go" beforeDir="false" afterPath="$PROJECT_DIR$/databases/services/DBConnection.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/services/UserServices.go" beforeDir="false" afterPath="$PROJECT_DIR$/databases/services/UserServices.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/databases/services/services.go" beforeDir="false" afterPath="$PROJECT_DIR$/databases/services/services.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1/Gopkg.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../project1/Gopkg.toml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -161,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/Main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="225">
+              <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
               <folding>
                 <element signature="e#14#71#0" expanded="true" />
               </folding>
@@ -170,64 +33,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../../../../.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/runtime/asm_amd64.s">
+        <entry file="file://$PROJECT_DIR$/Tutos/test_loggo.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="1332" selection-start-line="1332" selection-end-line="1332" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databases/services/UserServices.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="525">
+              <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="41" />
               <folding>
-                <element signature="e#18#93#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databases/services/DBConnection.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-              <folding>
-                <element signature="e#18#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databases/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/databases/services/DbConfig.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-              <folding>
-                <element signature="e#15#72#0" expanded="true" />
+                <element signature="e#15#49#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,8 +48,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/models/models.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/databases/services/DbConfig.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -245,8 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/databases/services/services.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+            <state relative-caret-position="180">
+              <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
               <folding>
                 <element signature="e#18#69#0" expanded="true" />
               </folding>
@@ -255,10 +76,25 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file:///usr/local/Cellar/go/1.11.1/libexec/src/runtime/panic.go">
+        <entry file="file://$PROJECT_DIR$/databases/services/DBConnection.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="680" selection-start-line="680" selection-end-line="680" />
+            <state relative-caret-position="478">
+              <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+              <folding>
+                <element signature="e#18#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/databases/services/UserServices.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+              <folding>
+                <element signature="e#18#122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -306,13 +142,16 @@
         <option value="$PROJECT_DIR$/databases/services/OpenConnection.go" />
         <option value="$PROJECT_DIR$/databases/tools/YamlReader.go" />
         <option value="$PROJECT_DIR$/databases/services/YamlReader.go" />
-        <option value="$PROJECT_DIR$/databases/Main.go" />
         <option value="$PROJECT_DIR$/databases/application.yaml" />
-        <option value="$PROJECT_DIR$/databases/services/DBConnection.go" />
-        <option value="$PROJECT_DIR$/databases/services/UserServices.go" />
-        <option value="$PROJECT_DIR$/databases/services/services.go" />
         <option value="$PROJECT_DIR$/databases/services/DbConfig.go" />
         <option value="$PROJECT_DIR$/../../../../.gitignore" />
+        <option value="$PROJECT_DIR$/Tutos/tutorial_1.go" />
+        <option value="$PROJECT_DIR$/databases/models/models.go" />
+        <option value="$PROJECT_DIR$/Tutos/test_loggo.go" />
+        <option value="$PROJECT_DIR$/databases/services/services.go" />
+        <option value="$PROJECT_DIR$/databases/Main.go" />
+        <option value="$PROJECT_DIR$/databases/services/DBConnection.go" />
+        <option value="$PROJECT_DIR$/databases/services/UserServices.go" />
       </list>
     </option>
   </component>
@@ -336,6 +175,11 @@
             <path>
               <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
               <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="bin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -350,6 +194,42 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="github.go" type="462c0819:PsiDirectoryNode" />
               <item name="vincedgy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.go" type="462c0819:PsiDirectoryNode" />
+              <item name="vincedgy" type="462c0819:PsiDirectoryNode" />
+              <item name="golang_tutos" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.go" type="462c0819:PsiDirectoryNode" />
+              <item name="vincedgy" type="462c0819:PsiDirectoryNode" />
+              <item name="golang_tutos" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.go" type="462c0819:PsiDirectoryNode" />
+              <item name="vincedgy" type="462c0819:PsiDirectoryNode" />
+              <item name="golang_tutos" type="462c0819:PsiDirectoryNode" />
+              <item name="databases" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="golang_tutos" type="b2602c69:ProjectViewProjectNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="github.go" type="462c0819:PsiDirectoryNode" />
+              <item name="vincedgy" type="462c0819:PsiDirectoryNode" />
+              <item name="golang_tutos" type="462c0819:PsiDirectoryNode" />
+              <item name="Tutos" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -413,6 +293,35 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="go build github.go/vincedgy/golang_tutos/databases" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+      <module name="golang_tutos" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/" />
+      <package value="github.go/vincedgy/golang_tutos/databases" />
+      <directory value="$PROJECT_DIR$/" />
+      <output_directory value="$PROJECT_DIR$/../../../../bin" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build test_loggo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_tutos" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <parameters value="first=DEBUG" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Tutos/test_loggo.go" />
+      <package value="github.go/vincedgy/golang_tutos" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build tutorial_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golang_tutos" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/Tutos/tutorial_1.go" />
+      <package value="github.go/vincedgy/golang_tutos" />
+      <directory value="$PROJECT_DIR$/" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build tutorial_db_1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golang_tutos" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -422,39 +331,39 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build tutorial_db_2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golang_tutos" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/tutodb2/tutorial_db_2.go" />
-      <package value="github.go/vincedgy/golang_tutos" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
+    <list>
+      <item itemvalue="Go Build.go build github.go/vincedgy/golang_tutos/databases" />
+      <item itemvalue="Go Build.go build github.go/vincedgy/golang_tutos" />
+      <item itemvalue="Go Build.go build Main.go" />
+      <item itemvalue="Go Build.go build test_loggo.go" />
+      <item itemvalue="Go Build.go build tutorial_1.go" />
+      <item itemvalue="Go Build.go build tutorial_db_1.go" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build Main.go" />
+        <item itemvalue="Go Build.go build test_loggo.go" />
+        <item itemvalue="Go Build.go build tutorial_1.go" />
         <item itemvalue="Go Build.go build github.go/vincedgy/golang_tutos" />
         <item itemvalue="Go Build.go build tutorial_db_1.go" />
-        <item itemvalue="Go Build.go build tutorial_db_2.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1100" extended-state="6" />
+    <frame x="0" y="23" width="1920" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35623002" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2827476" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32936507" />
+      <window_info anchor="bottom" id="Version Control" weight="0.32936507" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32936507" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32936507" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32936507" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39980158" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -502,13 +411,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gopkg.lock">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tutos/tutorial_1.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1185">
-          <caret line="79" column="25" selection-start-line="79" selection-start-column="25" selection-end-line="79" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/databases/DatabaseConfig.go">
       <provider selected="true" editor-type-id="text-editor">
@@ -559,67 +461,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databases/services/UserServices.go">
+    <entry file="file://$PROJECT_DIR$/../../../../.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#18#93#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="45">
+          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/databases/services/DBConnection.go">
+    <entry file="file://$PROJECT_DIR$/Tutos/tutorial_1.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <element signature="e#18#55#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databases/services/services.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#18#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/databases/services/DbConfig.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
-          <folding>
-            <element signature="e#15#72#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="225">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/databases/models/models.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        <state relative-caret-position="135">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/services/DbConfig.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tutos/test_loggo.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="41" lean-forward="true" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="41" />
+          <folding>
+            <element signature="e#15#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/databases/Main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="225">
+          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
           <folding>
             <element signature="e#14#71#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../../../.gitignore">
+    <entry file="file://$PROJECT_DIR$/databases/services/services.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="6" lean-forward="true" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        <state relative-caret-position="180">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+          <folding>
+            <element signature="e#18#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/services/DBConnection.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="39" column="42" lean-forward="true" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
+          <folding>
+            <element signature="e#18#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/databases/services/UserServices.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="34" lean-forward="true" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
+          <folding>
+            <element signature="e#18#122#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
