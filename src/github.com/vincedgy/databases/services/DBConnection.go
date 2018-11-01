@@ -5,28 +5,28 @@ import (
 	"fmt"
 )
 
-func GetConnection(confFile string) *sql.DB {
+func db() *sql.DB {
+	return conn
+}
+
+func InitConnection(confFile string) {
 	/**
 	GetConnection serves a singleton db connector
 	It initializes it the first time and serves it
 	*/
 
+	config = InitializeConfFromFile(confFile)
+
 	if conn == nil {
 		log.Debugf("Create the db connection")
 
-		// Retrieve information for connection
-		if confFile == "" {
-			confFile = DefaultConfigFile
-		}
-		dbConfig = GetConf(confFile)
-
 		// Formating the database connection string
 		psqlInfo := fmt.Sprintf("host=%s port=%d user=%s password=%s dbname=%s sslmode=disable",
-			dbConfig.Datasource.Main.Host,
-			dbConfig.Datasource.Main.Port,
-			dbConfig.Datasource.Main.User,
-			dbConfig.Datasource.Main.Password,
-			dbConfig.Datasource.Main.Dbname)
+			config.Datasource.Main.Host,
+			config.Datasource.Main.Port,
+			config.Datasource.Main.User,
+			config.Datasource.Main.Password,
+			config.Datasource.Main.Dbname)
 
 		// Open the connection to the database
 		db, err := sql.Open("postgres", psqlInfo)
@@ -39,9 +39,6 @@ func GetConnection(confFile string) *sql.DB {
 	} else {
 		log.Debugf("Existing connection")
 	}
-
-	log.Debugf("Returning the connection")
-	return conn
 }
 
 func CloseConnection() {
@@ -56,4 +53,3 @@ func CloseConnection() {
 
 	}
 }
-

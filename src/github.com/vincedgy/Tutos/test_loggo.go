@@ -1,12 +1,10 @@
 package main
 
 import (
-"github.com/vincedgy/databases/vendor/github.com/juju/loggo"
+	"github.com/vincedgy/databases/vendor/github.com/juju/loggo"
 )
 
 var first = loggo.GetLogger("first")
-
-
 
 func FirstCritical(message string) {
 	first.Criticalf(message)

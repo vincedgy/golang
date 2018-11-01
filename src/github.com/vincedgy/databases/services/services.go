@@ -15,7 +15,6 @@ var log = loggo.GetLogger("services")
 // conn : the main db connection object
 var conn *sql.DB = nil
 
-// dbConfig : the database configuration
-var dbConfig Conf
+var config Conf
 
-const DefaultConfigFile = "application.yaml"
+const DefaultConfigFile = "resources/application.yaml"

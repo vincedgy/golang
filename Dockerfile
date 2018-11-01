@@ -7,10 +7,18 @@ RUN chmod +x /usr/bin/dep
 # Copy the code from the host and compile it
 WORKDIR $GOPATH/src/github.com/vincedgy/databases
 ADD src/github.com/vincedgy/databases ./
-RUN dep ensure --vendor-only
-COPY bin ./
-RUN CGO_ENABLED=0 GOOS=linux go build -a -installsuffix nocgo -o /app .
+ADD src/github.com/vincedgy/databases/* ./
 
+# Run the dep for dependencies resolution
+RUN dep ensure --vendor-only
+
+# Run the executable
+ADD bin ./
+
+# Compile statically
+RUN CGO_ENABLED=0 GOOS=linux nice go build -a -installsuffix nocgo -o /app .
+
+# The real RUNNING container with our go program is here
 FROM scratch
 COPY --from=builder /app ./
 ENTRYPOINT ["./app"]

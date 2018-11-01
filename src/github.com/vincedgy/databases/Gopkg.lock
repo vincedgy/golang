@@ -21,6 +21,14 @@
   version = "v1.0.0"
 
 [[projects]]
+  branch = "master"
+  digest = "1:03f6f430c25614089460bd1531c21edc10ba3971fa3362995a18dabbd16da705"
+  name = "github.com/pborman/getopt"
+  packages = ["v2"]
+  pruneopts = "UT"
+  revision = "2b5b3bfb099b7da3e2f433966f8ab1d5803e0876"
+
+[[projects]]
   digest = "1:342378ac4dcb378a5448dd723f0784ae519383532f5e70ade24132c4c8693202"
   name = "gopkg.in/yaml.v2"
   packages = ["."]
@@ -34,6 +42,7 @@
   input-imports = [
     "github.com/juju/loggo",
     "github.com/lib/pq",
+    "github.com/pborman/getopt/v2",
     "gopkg.in/yaml.v2",
   ]
   solver-name = "gps-cdcl"

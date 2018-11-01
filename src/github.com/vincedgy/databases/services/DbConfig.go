@@ -21,7 +21,7 @@ type Conf struct {
 }
 
 // GetConf reads a yaml file and returns a configuration set for database connection
-func GetConf(fileName string) Conf {
+func InitializeConfFromFile(fileName string) Conf {
 
 	var c Conf
 
