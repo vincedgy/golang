@@ -10,11 +10,14 @@ func GetConnection(confFile string) *sql.DB {
 	GetConnection serves a singleton db connector
 	It initializes it the first time and serves it
 	*/
-	if conn == nil {
 
+	if conn == nil {
 		log.Debugf("Create the db connection")
 
 		// Retrieve information for connection
+		if confFile == "" {
+			confFile = DefaultConfigFile
+		}
 		dbConfig = GetConf(confFile)
 
 		// Formating the database connection string
@@ -53,3 +56,4 @@ func CloseConnection() {
 
 	}
 }
+

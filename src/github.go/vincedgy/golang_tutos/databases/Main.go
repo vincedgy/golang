@@ -1,11 +1,10 @@
 package main
 
 import (
-	"database/sql"
 	"github.com/juju/loggo"
 	_ "github.com/lib/pq"
+	m "github.go/vincedgy/golang_tutos/databases/models"
 	s "github.go/vincedgy/golang_tutos/databases/services"
-	"log"
 )
 
 func main() {
@@ -13,18 +12,27 @@ func main() {
 		The main function of our local module
 	*/
 
-	loggo.ConfigureLoggers("<root>=DEBUG")
+	loggo.ConfigureLoggers("<root>=INFO")
+	var log = loggo.GetLogger("main")
 
-	log.Println("Starting...")
+	log.Infof("Starting...")
+	defer s.CloseConnection()
 
-	var conn *sql.DB = s.GetConnection("/Users/vdagoury/Projects/golang/workspace/src/github.go/vincedgy/golang_tutos/databases/application.yaml")
-	var user = s.GetUserById(conn, 1)
+	// Create a collection of Users a fetch for each id from 0 to the length of the collection
+	var users = new([10]m.User)
 
-	log.Printf("The user's with id %d has email : %s", user.Id, user.Email)
+	for id := 0; id < len(users); id++ {
+		users[id] = s.GetUserById(id)
+		log.Infof("The user's with id %d (%d) has email : %s", id, users[id].Id, users[id].Email)
+	}
 
-	user = s.GetUserById(conn, 100)
-	log.Printf("The user's with id %d has email : %s", user.Id, user.Email)
+	// Count the total numbers of Users
+	var usersCount int = s.GetUsersCount()
+	log.Infof("The number of counted users in db is : %d", usersCount)
 
-	s.CloseConnection()
-	log.Println("Done")
+	// Retrieve all the users
+	var usersCollection []m.User = s.GetUsers()
+	log.Infof("The number of users fetched from db is : %d", len(usersCollection))
+
+	log.Infof("Done")
 }

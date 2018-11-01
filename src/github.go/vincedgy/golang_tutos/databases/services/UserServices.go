@@ -2,26 +2,28 @@ package services
 
 import (
 	"database/sql"
-	"fmt"
 	m "github.go/vincedgy/golang_tutos/databases/models"
 
 	_ "github.com/lib/pq"
 )
 
-func GetUserById(db *sql.DB, id int64) m.User {
+
+
+func GetUserById(id int) m.User {
 
 	log.Debugf("Starting GetUserById")
+
+	var db *sql.DB = GetConnection("")
 
 	// Fetch some data
 	sqlStatement := `SELECT user_oid, login, email FROM sch_services.ccuser WHERE user_oid = $1;`
 
 	var user m.User
-
 	row := db.QueryRow(sqlStatement, id)
 
 	switch err := row.Scan(&user.Id, &user.Login, &user.Email); err {
 	case sql.ErrNoRows:
-		log.Errorf("No rows were returned!")
+		log.Debugf("No rows were returned!")
 	case nil:
 		log.Debugf("Data retrieved in %0.6dns", db.Stats().WaitCount * db.Stats().WaitDuration.Nanoseconds())
 	default:
@@ -31,31 +33,59 @@ func GetUserById(db *sql.DB, id int64) m.User {
 	return user
 }
 
-func GetUsers(db *sql.DB) m.User {
+func GetUsersCount() int {
 
-	log.Debugf("Starting GetUsers")
+	log.Debugf("Starting GetUserCount")
+	var db *sql.DB = GetConnection("")
+
+	var usersCount int = 0
 
 	// Fetch some data
-	sqlStatement := `
-	SELECT user_oid, login, email 
-	FROM sch_services.ccuser;
-	`
-
-	var user m.User
+	sqlStatement := `SELECT count(user_oid) as cnt FROM sch_services.ccuser;`
 
 	row := db.QueryRow(sqlStatement)
 
-	fmt.Println(db.Stats())
-
-	switch err := row.Scan(&user.Id, &user.Login, &user.Email); err {
+	switch err := row.Scan(&usersCount); err {
 	case sql.ErrNoRows:
-		log.Errorf("No rows were returned!")
+		log.Debugf("No rows were returned!")
 	case nil:
-		log.Infof("Data retrieved...")
+		log.Debugf("Data retrieved in %0.6dns", db.Stats().WaitCount * db.Stats().WaitDuration.Nanoseconds())
 	default:
 		panic(err)
 	}
 
+	return usersCount
+}
 
-	return user
+func GetUsers() []m.User {
+
+	log.Debugf("Starting GetUsers")
+
+	var db *sql.DB = GetConnection("")
+
+	// Fetch some data
+	sqlStatement := `SELECT user_oid, login, email FROM sch_services.ccuser;`
+
+	rows, err := db.Query(sqlStatement)
+	defer rows.Close()
+
+	var users []m.User
+
+	for rows.Next() {
+		var user m.User
+		err = rows.Scan(&user.Id, &user.Login, &user.Email)
+		if err != nil {
+			// handle this error
+			panic(err)
+		}
+		users = append(users, user)
+
+	}
+	// get any error encountered during iteration
+	err = rows.Err()
+	if err != nil {
+		panic(err)
+	}
+
+	return users
 }
